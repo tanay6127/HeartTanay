@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 st.title("Heart Disease Prediction by Tanay")
-model=joblib.load('C:/Users/marad/Downloads/datasets2/ld.joblib')
+model=joblib.load('ld.joblib')
 gender=st.number_input("Enter the Gender Male:0, Female:1 : ")
 age=st.number_input("Enter the Age of the patient: ")
 cp=st.number_input("Enter the cp of the patient: ")
